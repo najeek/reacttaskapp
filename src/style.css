@@ -1,0 +1,81 @@
+body {
+    font: 16px "Century Gothic", Futura, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}  
+
+.navbar {
+  background: linear-gradient(270deg, #0575e6, #021b79);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+}
+input {
+  margin: 5px;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.unit {
+  width: 90%;
+  margin: 50px auto;
+  max-width: 600px;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+ul {
+  list-style-type: none;
+}
+
+.pages-container {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.page {
+  padding: 5px;
+  margin: 2px;
+  background: #021b79;
+  color: #fff;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+.page:hover {
+  background-color: #0575e6;
+}
+.form-box {
+   margin-top: 20px;
+}
+.form-box input-box {
+  display: flex;
+  
+}
+h2 {
+  text-align: center;
+}
+button:hover {
+  cursor: pointer;
+}
